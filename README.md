@@ -1,1 +1,1 @@
-# Exersism
+# Exercism

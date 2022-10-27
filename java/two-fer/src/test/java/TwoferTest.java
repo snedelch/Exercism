@@ -19,18 +19,25 @@ public class TwoferTest {
                 .isEqualTo("One for you, one for me.");
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void aNameGiven() {
         assertThat(twofer.twofer("Alice"))
                 .isEqualTo("One for Alice, one for me.");
     }
 
-    @Ignore("Remove to run test")
+    // @Ignore("Remove to run test")
     @Test
     public void anotherNameGiven() {
         assertThat(twofer.twofer("Bob"))
                 .isEqualTo("One for Bob, one for me.");
+    }
+
+    // @Ignore("Remove to run test")
+    @Test
+    public void myTestNameGiven() {
+        assertThat(twofer.twofer("Zaphod"))
+                .isEqualTo("One for Zaphod, one for me.");
     }
 
 }
